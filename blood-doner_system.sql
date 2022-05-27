@@ -15,3 +15,6 @@ SELECT *FROM patient_in_need_of_blood ;
 SELECT * FROM donor;
 INSERT INTO donor(d_unquie_id, d_first_name, d_last_name, d_age, blood_group, contact_number) VALUES(1123, "John", "Snow", 24, "0+", 0891234567);
 SELECT * FROM donor;
+AlTER TABLE hosiptals_in_need_of_blood
+ADD contact2 BIGINT;
+SELECT * FROM hosiptals_in_need_of_blood;
